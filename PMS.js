@@ -5,4 +5,6 @@ function getWeather(){
     })
 }
 const promise= getWeather()
-prom
+promise.then(function(data){
+    console.log(data)
+})
